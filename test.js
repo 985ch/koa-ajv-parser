@@ -1,8 +1,8 @@
 'use strict';
 
-const paser = require('./');
+const parser = require('./');
 
-const middleware = paser({
+const middleware = parser({
   params: {
     id: { type: 'integer', minimum: 1 },
     name: 'string',
@@ -34,7 +34,7 @@ async function test(info, body, query, params) {
       console.log(ctx.state.params);
     });
   } catch (e) {
-    if (e.name === 'AjvPaserError') {
+    if (e.name === 'AjvParserError') {
       console.log(e.message);
     }
   }
