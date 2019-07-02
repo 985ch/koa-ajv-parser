@@ -1,0 +1,31 @@
+{
+	"name": "koa-ajv-paser",
+	"version": "1.0.0",
+	"description": "A koa middleware for parameter validation",
+	"license": "MIT",
+	"repository": "985ch/koa-ajv-paser",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "node test"
+	},
+	"files": [
+		"lib",
+		"index.js"
+	],
+	"keywords": [
+		"cache",
+		"caching"
+	],
+	"homepage": "https://github.com/985ch/koa-ajv-paser#readme",
+	"author": "985ch",
+	"dependencies": {
+		"ajv": "^6.10.0",
+		"lodash": "^4.17.11"
+	},
+	"devDependencies": {
+		"eslint": "^5.16.0",
+		"eslint-config-egg": "^7.4.1"
+	}
+}
