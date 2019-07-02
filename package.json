@@ -15,8 +15,11 @@
 		"index.js"
 	],
 	"keywords": [
-		"cache",
-		"caching"
+		"koa",
+		"middleware",
+		"ajv",
+		"validate",
+		"validator"
 	],
 	"homepage": "https://github.com/985ch/koa-ajv-paser#readme",
 	"author": "985ch",
