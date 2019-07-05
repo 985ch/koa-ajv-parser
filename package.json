@@ -1,6 +1,6 @@
 {
 	"name": "koa-ajv-parser",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "A koa middleware for parameter validation",
 	"license": "MIT",
 	"repository": "985ch/koa-ajv-parser",
