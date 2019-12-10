@@ -31,7 +31,9 @@ function getCtxParams(ctx, params) {
 
   const obj = {};
   for (const key in params) {
-    const data = body[key] || query[key] || ctx.params[key];
+    let data = body[key];
+    if(_.isUndefined(data))data = query[key];
+    if(_.isUndefined(data))data = ctx.params[key];
     const cur = params[key];
     if (_.isString(data) && (cur.type === 'object' || cur.type === 'array')) {
       try {
